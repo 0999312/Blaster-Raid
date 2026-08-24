@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0hg88326g6im"
+path="res://.godot/imported/coconut-half.obj-d4085d053312f0d8f818383dbd781ecc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coconut-half.obj-d4085d053312f0d8f818383dbd781ecc.mesh"]
+
+source_file="res://assets/kenney/food/Models/OBJ format/coconut-half.obj"
+dest_files=["res://.godot/imported/coconut-half.obj-d4085d053312f0d8f818383dbd781ecc.mesh", "res://.godot/imported/coconut-half.obj-d4085d053312f0d8f818383dbd781ecc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

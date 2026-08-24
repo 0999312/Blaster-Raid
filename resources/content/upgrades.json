@@ -1,0 +1,34 @@
+[
+  {
+    "id": "raid:max_health",
+    "display_name": "强化体魄",
+    "description": "最大生命值 +10",
+    "max_level": 5,
+    "cost_base": 80,
+    "effects": {"max_health": 10}
+  },
+  {
+    "id": "raid:move_speed",
+    "display_name": "轻快步伐",
+    "description": "移动速度 +5%",
+    "max_level": 5,
+    "cost_base": 100,
+    "effects": {"move_speed": 0.05}
+  },
+  {
+    "id": "raid:luck",
+    "display_name": "搜刮幸运",
+    "description": "掉落数量 +10%",
+    "max_level": 5,
+    "cost_base": 120,
+    "effects": {"luck": 0.1}
+  },
+  {
+    "id": "raid:ammo_capacity",
+    "display_name": "弹药携带",
+    "description": "初始备弹 +10%",
+    "max_level": 3,
+    "cost_base": 90,
+    "effects": {"ammo_capacity": 0.1}
+  }
+]

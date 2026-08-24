@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bobtkn7xjnixe"
+path="res://.godot/imported/cup-tea.obj-cd3169b849901b0b4052f83adb0e602c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cup-tea.obj-cd3169b849901b0b4052f83adb0e602c.mesh"]
+
+source_file="res://assets/kenney/food/Models/OBJ format/cup-tea.obj"
+dest_files=["res://.godot/imported/cup-tea.obj-cd3169b849901b0b4052f83adb0e602c.mesh", "res://.godot/imported/cup-tea.obj-cd3169b849901b0b4052f83adb0e602c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

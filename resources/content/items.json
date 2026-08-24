@@ -1,0 +1,134 @@
+[
+  {
+    "id": "raid:ammo_cell",
+    "display_name": "能量弹匣",
+    "category": "ammo",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/clip-small.glb",
+    "stack_max": 99,
+    "value": 3,
+    "ammo_type": "cell",
+    "ammo_amount": 24,
+    "rarity": "common",
+    "tags": ["item:ammo"]
+  },
+  {
+    "id": "raid:ammo_shell",
+    "display_name": "泡沫霰弹",
+    "category": "ammo",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/bullet-foam.glb",
+    "stack_max": 99,
+    "value": 5,
+    "ammo_type": "shell",
+    "ammo_amount": 8,
+    "rarity": "common",
+    "tags": ["item:ammo"]
+  },
+  {
+    "id": "raid:apple",
+    "display_name": "苹果",
+    "category": "food",
+    "model_path": "res://assets/kenney/food/Models/GLB format/apple.glb",
+    "stack_max": 10,
+    "value": 2,
+    "hunger_restore": 20.0,
+    "health_restore": 2.0,
+    "rarity": "common",
+    "tags": ["item:food"]
+  },
+  {
+    "id": "raid:banana",
+    "display_name": "香蕉",
+    "category": "food",
+    "model_path": "res://assets/kenney/food/Models/GLB format/banana.glb",
+    "stack_max": 10,
+    "value": 2,
+    "hunger_restore": 24.0,
+    "health_restore": 1.0,
+    "rarity": "common",
+    "tags": ["item:food"]
+  },
+  {
+    "id": "raid:bread",
+    "display_name": "面包",
+    "category": "food",
+    "model_path": "res://assets/kenney/food/Models/GLB format/bread.glb",
+    "stack_max": 10,
+    "value": 4,
+    "hunger_restore": 35.0,
+    "health_restore": 4.0,
+    "rarity": "uncommon",
+    "tags": ["item:food"]
+  },
+  {
+    "id": "raid:bottle_med",
+    "display_name": "医疗饮料",
+    "category": "health",
+    "model_path": "res://assets/kenney/food/Models/GLB format/bottle-oil.glb",
+    "stack_max": 5,
+    "value": 15,
+    "hunger_restore": 5.0,
+    "health_restore": 30.0,
+    "rarity": "uncommon",
+    "tags": ["item:health"]
+  },
+  {
+    "id": "raid:coin",
+    "display_name": "金币",
+    "category": "valuable",
+    "model_path": "res://assets/kenney/prototype/Models/GLB format/coin.glb",
+    "stack_max": 99,
+    "value": 10,
+    "rarity": "common",
+    "tags": ["item:valuable"]
+  },
+  {
+    "id": "raid:scope_small",
+    "display_name": "小型瞄准镜",
+    "category": "attachment",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/scope-small.glb",
+    "stack_max": 1,
+    "value": 60,
+    "rarity": "uncommon",
+    "tags": ["item:attachment", "attachment:scope"]
+  },
+  {
+    "id": "raid:silencer",
+    "display_name": "消音器",
+    "category": "attachment",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/silencer-small.glb",
+    "stack_max": 1,
+    "value": 50,
+    "rarity": "uncommon",
+    "tags": ["item:attachment", "attachment:barrel"]
+  },
+  {
+    "id": "raid:mag_large",
+    "display_name": "扩容弹匣",
+    "category": "attachment",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/clip-large.glb",
+    "stack_max": 1,
+    "value": 55,
+    "rarity": "uncommon",
+    "tags": ["item:attachment", "attachment:mag"]
+  },
+  {
+    "id": "raid:grip_firm",
+    "display_name": "稳固握把",
+    "category": "attachment",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/blaster-a.glb",
+    "stack_max": 1,
+    "value": 30,
+    "rarity": "common",
+    "tags": ["item:attachment", "attachment:grip"]
+  },
+  {
+    "id": "raid:barrel_long",
+    "display_name": "加长枪管",
+    "category": "attachment",
+    "model_path": "res://assets/kenney/blaster/Models/GLB format/silencer-larger.glb",
+    "stack_max": 1,
+    "value": 90,
+    "rarity": "rare",
+    "tags": ["item:attachment", "attachment:barrel"]
+  }
+]

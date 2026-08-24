@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dar60v32eo6hc"
+path="res://.godot/imported/cooking-spatula.obj-7843ceed2a9177bcdb2dd14a28f2300a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cooking-spatula.obj-7843ceed2a9177bcdb2dd14a28f2300a.mesh"]
+
+source_file="res://assets/kenney/food/Models/OBJ format/cooking-spatula.obj"
+dest_files=["res://.godot/imported/cooking-spatula.obj-7843ceed2a9177bcdb2dd14a28f2300a.mesh", "res://.godot/imported/cooking-spatula.obj-7843ceed2a9177bcdb2dd14a28f2300a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

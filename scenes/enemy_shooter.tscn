@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://h85cqbtdj80d"]
+
+[ext_resource type="Script" uid="uid://cknd0ifv0qen0" path="res://scripts/combat/enemy.gd" id="1_enemy"]
+[ext_resource type="PackedScene" uid="uid://iqsg8xvparfg" path="res://assets/kenney/mini_characters/Models/GLB format/character-female-b.glb" id="2_model"]
+[ext_resource type="PackedScene" uid="uid://cwox2vos0k3f3" path="res://assets/kenney/blaster/Models/GLB format/blaster-a.glb" id="3_weapon"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_body"]
+radius = 0.35
+height = 1.8
+
+[node name="Enemy" type="CharacterBody3D" unique_id=1073396468]
+script = ExtResource("1_enemy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=912717312]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_body")
+
+[node name="ModelRoot" type="Node3D" parent="." unique_id=212573872]
+
+[node name="CharacterModel" parent="ModelRoot" unique_id=683341206 instance=ExtResource("2_model")]
+transform = Transform3D(2.488411, 0, 0, 0, 2.488411, 0, 0, 0, 2.488411, 0, 0, 0.004037)
+
+[node name="WeaponAnchor" type="Marker3D" parent="ModelRoot" unique_id=1109521137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8698033, 0.6284516, 0.0583978)
+
+[node name="WeaponProp" parent="ModelRoot/WeaponAnchor" unique_id=1454872283 instance=ExtResource("3_weapon")]
+transform = Transform3D(-1, 0, 1.509958e-07, 0, 1, 0, -1.509958e-07, 0, -1, 0.08803266, 0.36336988, 0.28217375)
+
+[node name="Muzzle" type="Marker3D" parent="ModelRoot/WeaponAnchor/WeaponProp" unique_id=1872696444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.4)
